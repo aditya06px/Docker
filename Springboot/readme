@@ -1,0 +1,2 @@
+# to run with port 9000 machin's port: container's port
+docker run --name spring -p 9000:9000  spring-boot-img
