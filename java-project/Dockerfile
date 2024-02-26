@@ -12,3 +12,6 @@ RUN javac Main.java
 
 # Set the entry point to run the Main class
 ENTRYPOINT ["java", "Main"]
+
+# you could also use this command to run java main class
+# CMD ["java", "Main"]
