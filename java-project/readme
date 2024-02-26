@@ -1,0 +1,10 @@
+# build an img from Dockerfile
+docker build -t java-img .
+
+
+# run a container 
+docker run java-img
+
+# run a container in detached mode
+docker run -d  java-img
+~                     
