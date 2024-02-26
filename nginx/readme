@@ -1,0 +1,12 @@
+# TO build an img from dockerfile present in this repo 
+
+# -t is used to give tag to your img 
+docker build -t mynginx .
+
+
+#to run the container 
+docker run --name mynginx -d -p 8080:80 mynginx
+
+# --name is used to give name to the container 
+# -d this means run this container in detached mode (Bacground), You will be able to use terminal 
+# 8080:80 -> pcs port : container's port  
