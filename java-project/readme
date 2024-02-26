@@ -7,4 +7,4 @@ docker run java-img
 
 # run a container in detached mode
 docker run -d  java-img
-~                     
+                   
